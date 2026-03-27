@@ -22,5 +22,5 @@ R CMD javareconf
 Running:
 
 ```
-/opt/homebrew/bin/R -e "shiny::runApp('/<PATH-TO-Matching-Software-FOLDER/', port = 3838, host = '127.0.0.1')"
+/opt/homebrew/bin/R -e "shiny::runApp('/<PATH-TO-Matching-Software-FOLDER>/', port = 3838, host = '127.0.0.1')"
 ```
