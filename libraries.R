@@ -1,15 +1,24 @@
-# ----------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # LIBRARIES
-#-----------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 
 # libraries we need forour shiny app
 
-library(data.table)
-library(DT)
-library(dplyr)
-library(shiny)
-library(shinybusy)
-library(shinydashboard)
-library(shinyjs)
-library(tools)
-library(xlsx)
+# Load all required packages
+required_packages <- c(
+  "data.table",
+  "DT",
+  "dplyr",
+  "shiny",
+  "shinybusy",
+  "shinydashboard",
+  "shinyjs",
+  "tools",
+  "xlsx",
+  "xlsxjars",
+  "doParallel",
+  "matchingR"
+)
+
+# Load all required packages
+lapply(required_packages, library, character.only = TRUE)
